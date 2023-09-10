@@ -1,0 +1,16 @@
+.table--showColors tr:nth-child(odd) {
+  background: #333;
+  color: #fff;
+}
+
+.table--showColors tr:nth-child(even) {
+  background: #555;
+  color: #fff;
+}
+.table--pointer > th {
+  cursor: pointer;
+}
+
+.table--noResults {
+  padding: 50px;
+}
